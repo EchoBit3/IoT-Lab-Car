@@ -1,0 +1,6 @@
+{
+  "name": "IoT Lab Car",
+  "description": "Controlador IoT para vehículos y robots educativos con visor FPV, radar de doble sensor ultrasónico y autenticación segura.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

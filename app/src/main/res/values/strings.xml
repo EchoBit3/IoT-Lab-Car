@@ -1,0 +1,112 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="Typos">
+    <string name="app_name">IoT Lab Car</string>
+    <string name="beta_version_format">Beta Version %1$s</string>
+
+    <!-- AuthScreen -->
+    <string name="auth_app_description">App de control remoto y telemetría por Wi-Fi para conducir y monitorear un vehículo robótico ESP32 en tiempo real.</string>
+    <string name="auth_google_signin">Iniciar sesión con Google</string>
+    <string name="auth_create_account">Crear cuenta</string>
+    <string name="auth_authorize_permissions">Autorizar permisos del dispositivo</string>
+    <string name="auth_privacy_and_safety_button">Privacidad y Seguridad</string>
+    <string name="auth_parental_notice">Uso educativo y de laboratorio. Si eres menor de edad, úsala con supervisión de un adulto o profesor. Tus datos se guardan protegidos solo en tu celular.</string>
+    <string name="auth_wifi_required_title">Conexión Wi-Fi requerida</string>
+    <string name="auth_wifi_required_body">El celular debe estar conectado a una red Wi-Fi en todo momento para usar la app.</string>
+    <string name="auth_wifi_connect_button">Conectar a una red Wi-Fi</string>
+    <string name="auth_no_wifi_cd">Sin Wi-Fi</string>
+
+    <!-- MainActivity / TopBar / Navigation / Ribbon -->
+    <string name="topbar_permissions_cd">Permisos del sistema</string>
+    <string name="topbar_logout_cd">Cerrar sesión</string>
+    <string name="nav_tab_cockpit">Cabina</string>
+    <string name="nav_tab_diagnostics">Diagnóstico y Red</string>
+    <string name="alert_wifi_disconnected_cd">Alerta: Celular sin conexión Wi-Fi</string>
+    <string name="alert_wifi_disconnected_title">Celular desconectado del Wi-Fi</string>
+    <string name="alert_wifi_disconnected_body">Conéctate a una red Wi-Fi en todo momento para operar el vehículo.</string>
+    <string name="alert_wifi_refresh_cd">Verificar conexión Wi-Fi</string>
+    <string name="alert_wifi_button">Wi-Fi</string>
+    <string name="ribbon_status_simulated">Simulación activa</string>
+    <string name="ribbon_status_online">[OK] ESP32 En Línea</string>
+    <string name="ribbon_status_disconnected">ESP32 Desconectado</string>
+    <string name="ribbon_sub_connected_format">%1$d ms • %2$s</string>
+    <string name="ribbon_btn_disconnect">Desconectar</string>
+    <string name="ribbon_btn_connect">Conectar</string>
+
+    <!-- IntegratedCameraRadarView -->
+    <string name="fpv_offline_title">Visor FPV y Radar Ultrasónico en Espera</string>
+    <string name="fpv_offline_body">Conecta tu ESP32 arriba o inicia la simulación física 3D en tiempo real para conducir con el joystick.</string>
+    <string name="fpv_start_simulation">Iniciar simulación</string>
+    <string name="fpv_enable_wifi_to_simulate">Activa el Wi-Fi para simular</string>
+    <string name="fpv_dodged_format">ESQUIVADOS: %1$d</string>
+    <string name="fpv_esp32_cam_live">ESP32-CAM VIVO</string>
+    <string name="fpv_reset_track_cd">Reiniciar pista</string>
+    <string name="fpv_sonar_left">SONAR IZQ</string>
+    <string name="fpv_sonar_right">SONAR DER</string>
+    <string name="fpv_estop_banner">FRENO DE EMERGENCIA ACTIVO • AUTO DETENIDO (0.0 km/h)</string>
+    <string name="fpv_obstacle_danger_format">¡OBSTÁCULO A %1$.0f CM! GIRA IZQ/DER PARA ESQUIVAR</string>
+    <string name="fpv_clear_lane_banner">CARRIL LIBRE • ESQUIVANDO OBSTÁCULO</string>
+
+    <!-- ErgonomicCockpitControls -->
+    <string name="cockpit_title">Joystick Analógico 360°</string>
+    <string name="cockpit_sub_no_wifi">Bloqueado: Celular sin conexión Wi-Fi</string>
+    <string name="cockpit_sub_disconnected">Bloqueado: Conecta o simula el ESP32</string>
+    <string name="cockpit_sub_estop">Freno de emergencia activo: Toca el botón rojo para liberar</string>
+    <string name="cockpit_sub_ready">Control vectorial 2D (Tracción + Dirección)</string>
+    <string name="cockpit_speed_30">30% Precisión</string>
+    <string name="cockpit_speed_60">60% Normal</string>
+    <string name="cockpit_speed_100">100% Potencia</string>
+    <string name="cockpit_vector_header">VECTOR JOYSTICK</string>
+    <string name="cockpit_throttle_label">Tracción (Y):</string>
+    <string name="cockpit_steering_label">Giro (X):</string>
+    <string name="cockpit_steering_center">0% Centro</string>
+    <string name="cockpit_motors_header">MOTORES PWM (L298N)</string>
+    <string name="cockpit_motor_left">Motor Izq:</string>
+    <string name="cockpit_motor_right">Motor Der:</string>
+    <string name="cockpit_gear_no_wifi">SIN WI-FI</string>
+    <string name="cockpit_gear_disconnected">DESCONECTADO</string>
+    <string name="cockpit_gear_estop">FRENO DE EMERGENCIA</string>
+    <string name="cockpit_gear_forward">MARCHA ADELANTE</string>
+    <string name="cockpit_gear_reverse">MARCHA ATRÁS</string>
+    <string name="cockpit_gear_left">GIRO IZQUIERDA</string>
+    <string name="cockpit_gear_right">GIRO DERECHA</string>
+    <string name="cockpit_gear_neutral">NEUTRO (0, 0)</string>
+    <string name="cockpit_dir_up">▲ ADELANTE</string>
+    <string name="cockpit_dir_down">▼ ATRÁS</string>
+    <string name="cockpit_dir_left">◀ IZQ</string>
+    <string name="cockpit_dir_right">DER ▶</string>
+    <string name="cockpit_joystick_locked_cd">Joystick bloqueado</string>
+    <string name="cockpit_locked_no_wifi">Sin Wi-Fi</string>
+    <string name="cockpit_locked_offline">Offline</string>
+    <string name="cockpit_locked_braked">FRENADO</string>
+    <string name="cockpit_estop_cd">Freno de emergencia</string>
+    <string name="cockpit_estop_active_btn">FRENO DE EMERGENCIA ACTIVO — TOCAR PARA LIBERAR</string>
+    <string name="cockpit_estop_engage_btn">FRENO DE EMERGENCIA</string>
+
+    <!-- DiagnosticsScreen -->
+    <string name="diag_wifi_active_title">Red Wi-Fi del Celular: Activa</string>
+    <string name="diag_wifi_disconnected_title">Red Wi-Fi del Celular: Desconectada</string>
+    <string name="diag_wifi_gateway_format">Gateway detectado en la red activa: %1$s</string>
+    <string name="diag_wifi_connect_prompt">Conecta tu celular a una red Wi-Fi para poder vincular y controlar el vehículo.</string>
+    <string name="diag_wifi_networks_btn">Redes Wi-Fi</string>
+    <string name="diag_telemetry_title">Telemetría de Red en Vivo</string>
+    <string name="diag_telemetry_waiting_wifi">Esperando conexión Wi-Fi en el celular</string>
+    <string name="diag_telemetry_sim_format">Simulación de enlace activa (%1$d dBm)</string>
+    <string name="diag_telemetry_active_format">Enlace Wi-Fi ESP32 Activo (%1$d dBm)</string>
+    <string name="diag_telemetry_no_link">Sin enlace activo con el ESP32</string>
+    <string name="diag_badge_online">EN LÍNEA</string>
+    <string name="diag_badge_offline">OFFLINE</string>
+    <string name="diag_tile_latency">Latencia</string>
+    <string name="diag_tile_stable">Estable</string>
+    <string name="diag_tile_waiting">En espera</string>
+    <string name="diag_tile_received">Recibidos</string>
+    <string name="diag_tile_rx_badge">Datos RX</string>
+    <string name="diag_tile_sent">Enviados</string>
+    <string name="diag_tile_tx_badge">Mando TX</string>
+    <string name="diag_config_title">Ajustes de Conexión ESP32</string>
+    <string name="diag_config_subtitle">Dirección IP local privada, puerto TCP y stream de cámara</string>
+    <string name="diag_field_ip_label">IP ESP32</string>
+    <string name="diag_field_port_label">Puerto</string>
+    <string name="diag_field_stream_label">URL Stream de Cámara (ESP32-CAM)</string>
+    <string name="diag_invalid_ip_error">Ingresa una IP local privada válida (192.168.x.x, 10.x.x.x o 172.16-31.x.x)</string>
+    <string name="diag_save_connect_btn">Guardar y Conectar al ESP32</string>
+    <string name="diag_requires_wifi_btn">Requiere Wi-Fi para Conectar</string>
+</resources>
