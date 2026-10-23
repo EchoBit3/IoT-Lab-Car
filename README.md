@@ -73,6 +73,14 @@ El proyecto se organiza en la carpeta app, que contiene el codigo fuente, los re
 
 La aplicacion guarda las sesiones con EncryptedSharedPreferences usando AES-256 GCM. Valida que las direcciones IP pertenezcan a redes privadas segun RFC 1918. Utiliza un watchdog que detiene el vehiculo si se pierde la conexion. Solicita permisos mediante un dialogo educativo y degrada sus funciones si son denegados. Sigue una arquitectura asincrona no bloqueante con corrutinas.
 
+## Paquete
+
+Nombre de paquete de la aplicacion: com.aistudio.iotvehicle.rcauto.
+
+## Licencia
+
+Este proyecto se distribuye bajo licencia MIT. Consulta el archivo LICENSE para mas detalles.
+
 ## Guia detallada
 
 Consulta COMO_EJECUTAR_Y_PROBAR.md para el checklist completo de pruebas y pasos adicionales.
